@@ -1,0 +1,5 @@
+file1 =open("file.txt","w")
+print("Name of file",file1.name)
+print("Mode of file",file1.mode)
+print("file is encoding",file1.encoding)
+print("file is closed",file1.close)
